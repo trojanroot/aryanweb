@@ -1,0 +1,74 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 15px;
+}
+.navTitle h3{
+  font-size:28px;
+}
+.navLink a{
+  color: #9B9A9E;
+  text-decoration: none;
+}
+.navLink li{
+  list-style: none;
+  display: inline-block;
+  justify-content: space-between;
+  margin: 10px;
+}
+.navLink button{
+  border: none;
+  padding: 8px;
+  background-color: #1B2345;
+  border-radius: 80px;
+}
+.main{
+  width: 713px;
+  height: 846px;
+  right: 666px;
+  background-image: url(/lib/Image\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainHeading h3{
+  font-size: 38px;
+}
+.mainParagraph p{
+ font-size: 18px;
+    color: gray;
+    max-width: 500px;
+}
+.mainButton{
+  display: flex;
+  gap: 20px;
+}
+.mainButton button{
+  padding: 20px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  color: #999EA3;
+}
+.mainButton button:first-child{
+  background-color: #1B2345;
+}
+.mainButton button:last-child{
+  background-color: #ffffff;
+}
+.felines{
+  display: flex;
+  justify-content: space-between;
+}
+.discover{
+ background-color: #1B2345;
+  color: #999EA3;
+}
+.dContain{
+  display: flex;
+  justify-content: space-between;
+}
+.dHeading h4{
+  text-align: center;
+  font-size: 28px;
+}
