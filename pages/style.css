@@ -61,14 +61,56 @@
   justify-content: space-between;
 }
 .discover{
- background-color: #1B2345;
+  background-color: #1B2345;
   color: #999EA3;
+}
+.discover h4{
+  text-align: center;
+  font-size: 30px;
 }
 .dContain{
   display: flex;
   justify-content: space-between;
 }
-.dHeading h4{
+.eHeading h5{
   text-align: center;
-  font-size: 28px;
+  color: #CCB275;
+}
+.eHeading h4{
+  text-align:center;
+  font-size: 36px;
+}
+.eParagraph p{
+  text-align: center;
+}
+.eHeading h6{
+  text-align: center;
+  color: #CCB275;
+}
+.discover{
+  display: flex;
+}
+.eDiscover{
+  background-color: #1B2345;
+  color:#999EA3;
+}
+.eDiscover button{
+  background-color: #1B2345;
+  color:#999EA3;
+}
+.perfectPicks{
+  background-color: #B5956D;
+  color: #F8F0DE;
+}
+.pContain{
+  display: flex;
+  justify-content: space-between;
+}
+.perfectPicks h4{
+  text-align: center;
+  font-size:30px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
 }
